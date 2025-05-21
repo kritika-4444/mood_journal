@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Journal</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Mood Journal</h1>
+    <p class="subtitle">How are you feeling today?</p>
+    <select id="mood">
+  <option value="😊">😊 Happy</option>
+  <option value="😢">😢 Sad</option>
+  <option value="😡">😡 Angry</option>
+  <option value="😴">😴 Tired</option>
+</select>
+    <form class="entry-box" onsubmit="return false;">
+      <label for="entry">Write your thoughts:</label>
+      <textarea id="entry" placeholder="Type here..."></textarea>
+      
+
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
